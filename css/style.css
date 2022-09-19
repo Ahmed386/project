@@ -1,0 +1,402 @@
+header {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.home {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navo{
+    z-index: 9999;
+}
+h1::after {
+  content: "";
+  animation: type 10s infinite;
+}
+/* Larry Daniels*/
+ @keyframes type {
+  0% {
+    content: "|";
+  }
+  1% {
+    content: "L|";
+  }
+  2% {
+    content: "La|";
+  }
+  3% {
+    content: "Lar|";
+  }
+  4% {
+    content: "Larr|";
+  }
+  5% {
+    content: "Larry|";
+  }
+  6% {
+    content: "Larry D|";
+  }
+  7% {
+    content: "Larry Da|";
+  }
+  8% {
+    content: "Larry Dan|";
+  }
+  9% {
+    content: "Larry Dani|";
+  }
+  10% {
+    content: "Larry Danie|";
+  }
+  11% {
+    content: "Larry Daniel|";
+  }
+  12% {
+    content: "Larry Daniels|";
+  }
+  28% {
+    content: "Larry Daniels|";
+  }
+  29% {
+    content: "Larry Daniel|";
+  }
+  30% {
+    content: "Larry Danie|";
+  }
+  31% {
+    content: "Larry Dani|";
+  }
+  32% {
+    content: "Larry Dan|";
+  }
+  33% {
+    content: "Larry Da|";
+  }
+  34% {
+    content: "Larry D|";
+  }
+  35% {
+    content: "Larry|";
+  }
+  36% {
+    content: "Larr|";
+  }
+  37% {
+    content: "Lar|";
+  }
+  38% {
+    content: "La|";
+  }
+  39% {
+    content: "L|";
+  }
+
+  40% {
+    content: "|";
+  }
+
+  41% {
+    content: "D|";
+  }
+  42% {
+    content: "De|";
+  }
+  43% {
+    content: "Des|";
+  }
+  44% {
+    content: "Desi|";
+  }
+  45% {
+    content: "Desig|";
+  }
+  46% {
+    content: "Design|";
+  }
+  47% {
+    content: "Designe|";
+  }
+  48% {
+    content: "Designer|";
+  }
+  64% {
+    content: "Designer|";
+  }
+  65% {
+    content: "Designe|";
+  }
+  66% {
+    content: "Design|";
+  }
+  67% {
+    content: "Desig|";
+  }
+  68% {
+    content: "Desi|";
+  }
+  69% {
+    content: "Des|";
+  }
+  70% {
+    content: "De|";
+  }
+  71% {
+    content: "D|";
+  }
+  72% {
+    content: "|";
+  }
+  73% {
+    content: "D|";
+  }
+  74% {
+    content: "De|";
+  }
+  75% {
+    content: "Dev|";
+  }
+  76% {
+    content: "Deve|";
+  }
+  77% {
+    content: "Devel|";
+  }
+  78% {
+    content: "Develo|";
+  }
+  79% {
+    content: "Develop|";
+  }
+  80% {
+    content: "Develope|";
+  }
+  81% {
+    content: "Developer|";
+  }
+  90% {
+    content: "Developer|";
+  }
+  91% {
+    content: "Develope|";
+  }
+  92% {
+    content: "Develop|";
+  }
+  93% {
+    content: "Develo|";
+  }
+  94% {
+    content: "Devel|";
+  }
+  95% {
+    content: "Deve|";
+  }
+  96% {
+    content: "Dev|";
+  }
+  97% {
+    content: "De|";
+  }
+  98% {
+    content: "D|";
+  }
+  100% {
+    content: "|";
+  }
+
+
+}
+.hicon{
+    width: 35px;
+    height: 35px;
+    background-color: #010E16;
+}
+.homesection{
+    width: 1000PX;
+}
+.homesection h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+.fword{
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+.profilepic::before{
+content: "";
+background-image: url(../images/dots.png);
+background-repeat: repeat;
+position: absolute;
+width: 80%;
+height: 80%;
+left: -25px;
+bottom: -45px;
+z-index: -20;
+}
+.about h3 {
+  font-weight: bold;
+}
+.progress{
+    height: unset;
+    --bs-progress-font-size: .9rem;
+
+}
+
+.btt1{
+    padding: 7px 35px;
+    color: white;
+    background-color: #010E16;
+    transition: .5s all;
+}
+.btt1:hover{
+    background-color: white;
+    color: black;
+
+}
+.btt2{
+    padding: 7px 35px;
+    color: black;
+    background-color: white;
+    transition: .5s all;
+}
+
+.btt2:hover{
+    background-color: #010E16;
+    color: white;
+}
+.line h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.line h2::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 17%;
+    top: 50px;
+    height: 20px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+}
+.member {
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 20%);
+    padding: 50px 15px;
+  }
+  .icon {
+    background: #F8F9FA;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s all;
+  }
+  .member:hover .icon {
+    background: black;
+    border-color: #cde1f8;
+    color: white;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: unset;
+  }
+  .nav-tabs {
+    border: unset;
+  }
+
+.inner{
+    position: absolute; 
+    top: 5px;
+    bottom: 5px;
+    left:5px;
+    right:5px;
+    background-color: white;
+    transform: translateY(110%);
+    opacity: 0;
+    transition: .5s all;
+
+
+}
+.item:hover .inner{
+    transform: translateY(0%);
+    opacity: 1;
+
+}
+.outer i {
+    color: white;
+}
+.outer{
+    width: 25px;
+    height: 25px;
+    background: #010E16;
+}
+.outer:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.outer:hover i {
+    color: black;
+
+}
+.carousel-indicators{
+    position: unset;
+    
+}
+
+
+.bbb{
+    width: 10px;
+    height: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    background-size: 100% 100%;
+}
+.carousel-inner{
+    overflow: unset;
+}
+
+.countitem h2{
+    font-weight: bolder;
+
+}
+.scale{
+    overflow: hidden;
+}
+.card img{
+    transform: scale(1);
+    transition: .5s all;
+}
+.card img:hover{
+    transform: scale(1.2);
+
+}
+
+.dott{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+    padding: 5px;
+    margin-left: 10px;
+}
+.up .member{
+    box-shadow: none;
+    padding: 0;
+}
+.confirm{
+    padding: 8px 45px;
+    background-color: #010E16;
+    color: white;
+    transition: .3s all;
+}
+.confirm:hover{
+    background-color: white;
+    color: black;
+}
